@@ -1,0 +1,23 @@
+
+#include <stdio.h>
+
+int main () {
+
+int a;
+
+/* for loop execution */
+for( a = 1; a <= 100; a++ )
+{
+printf("%d\n",a * a);
+}
+
+return 0;
+}
+
+OUTPUT:
+9025
+9216
+9409
+9604
+9801
+10000
