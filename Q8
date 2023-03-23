@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{   
+ int arr[]={1200, 3, 4, 1, 6};  
+  printf("%u, %u, %un", arr, &arr[0], &arr);  
+  return 0;
+}
+
+OUTPUT:
+3408694976, 3408694976, 3408694976n
