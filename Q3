@@ -1,0 +1,26 @@
+
+#include <stdio.h>
+
+int main()
+{
+    int i, n, sum=0;
+
+    printf("Enter the range : ");
+    scanf("%d", &n);
+
+   
+    for(i=1; i<=n; i+=2)
+    {
+        sum += i;
+    }
+
+    printf("Sum of odd numbers = %d", sum);
+
+    return 0;
+}
+
+INPUT:
+ENTER THE RANGE :3
+OUTPUT
+:
+SUM OF ODD NUMBERS = 4
